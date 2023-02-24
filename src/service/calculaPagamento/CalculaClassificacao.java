@@ -1,7 +1,7 @@
 package service.calculaPagamento;
 
 import model.Pagamento;
-import service.IPagamentoCalculavel;
+import service.interfaces.IPagamentoCalculavel;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

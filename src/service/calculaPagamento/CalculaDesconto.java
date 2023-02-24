@@ -1,6 +1,6 @@
 package service.calculaPagamento;
 
-import service.IPagamentoCalculavel;
+import service.interfaces.IPagamentoCalculavel;
 import model.Pagamento;
 import java.time.LocalDate;
 public class CalculaDesconto implements IPagamentoCalculavel<Pagamento> {

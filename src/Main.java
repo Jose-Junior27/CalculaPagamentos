@@ -1,10 +1,11 @@
 import service.ProcessarFaturamento;
 
+import java.io.File;
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        ProcessarFaturamento faturamento = new ProcessarFaturamento("/home/j2/Documents/Pagamentos/");
+        ProcessarFaturamento faturamento = new ProcessarFaturamento( new File(".")  +"\\Pagamentos");
         try {
             faturamento.processar();
 
